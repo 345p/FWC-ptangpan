@@ -1,0 +1,62 @@
+body {
+      display: flex;
+      justify-content: center; 
+      align-items: baseline;    
+      height: 100vh;           
+      margin: 0;               
+      background-image: url(bg.png); 
+      background-size: cover; 
+    }  
+.sandwich {
+    position: relative;
+    display: inline-block;
+    
+    background-image: url(bread.png);
+    background-size: cover;     
+    background-position: center; 
+    
+    
+    color: white;                
+    text-shadow: 1px 1px 3px black; 
+    padding: 40px 200px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.box {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+}
+
+.sandwich:hover .box {
+    display: block;
+}
+
+.ham {
+    background-image: url(ham.png);
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-shadow: 1px 1px 3px black;
+    padding: 20px 200px;
+}
+
+.cheese {
+    background-image: url(cheese.png);
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-shadow: 1px 1px 3px black;
+    padding: 20px 200px;
+}
+.bread {
+    background-image: url(bread.png);
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-shadow: 1px 1px 3px black;
+    padding: 20px 200px;
+}

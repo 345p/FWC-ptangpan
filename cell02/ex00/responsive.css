@@ -1,0 +1,17 @@
+.a{
+    display: flex;
+}
+.blk{
+    display: flex;
+    align-items: center; 
+    width: 100vw;
+    height: 98vh;
+    border: 2px solid black;
+}
+.blk1 {
+    background-color: salmon;
+}
+.blk2 {
+    background-color: lightblue;
+    border-left: black;
+}
