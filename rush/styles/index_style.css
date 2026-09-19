@@ -25,6 +25,7 @@ body {
     color: var(--text-dark);
     line-height: 1.6;
     overflow-x: hidden;
+    min-height: 100vh;
 }
 
 
@@ -120,36 +121,12 @@ body {
 }
 
 
-.hero {
-    margin-top: var(--nav-height);
-    background: linear-gradient(135deg, var(--navy) 0%, var(--dark-navy) 100%);
-    color: white;
-    text-align: center;
-    padding: 80px 20px 60px;
-}
-
-.hero h1 {
-    font-size: clamp(2rem, 5vw, 3rem);
-    margin-bottom: 16px;
-    color: #ffffff;
-}
-
-.hero h1 span {
-    color: var(--yellow); 
-}
-
-.hero p {
-    font-size: clamp(1rem, 2vw, 1.25rem);
-    max-width: 650px;
-    margin: 0 auto;
-    color: #ecf0f1;
-}
-
-
 .portfolios-container {
     max-width: 1100px;
     margin: 0 auto;
     padding: 60px 20px;
+    margin-top: var(--nav-height);
+    flex: 1;
 }
 
 .section-title {
@@ -214,24 +191,6 @@ body {
     margin-bottom: 5px;
 }
 
-.portfolio-card .role {
-    font-weight: 600;
-    color: var(--yellow);
-    background-color: var(--navy);
-    padding: 4px 12px;
-    border-radius: 20px;
-    font-size: 0.85rem;
-    display: inline-block;
-    margin-bottom: 15px;
-}
-
-.portfolio-card p {
-    color: #666;
-    font-size: 0.95rem;
-    margin-bottom: 25px;
-    flex-grow: 1; 
-}
-
 .btn-portfolio {
     display: inline-block;
     background-color: var(--navy);
@@ -289,10 +248,6 @@ footer p span {
     top: calc(100% + 8px);
     left: 0;
     right: auto;
-    }
-
-    .hero {
-    padding: 50px 16px 40px;
     }
 
     .portfolios-container {
