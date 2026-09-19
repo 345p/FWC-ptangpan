@@ -1,0 +1,15 @@
+html, body {
+  height: 100%;
+  margin: 0;
+}
+body{
+    display: grid;
+    place-items: center;   
+}
+.ball{
+    background-color: #b83518;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    cursor: pointer;
+}
